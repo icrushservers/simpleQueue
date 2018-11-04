@@ -1,0 +1,4 @@
+import Pkg
+Pkg.add("Distributions")
+Pkg.add("ResumableFunctions")
+Pkg.add("SimJulia")
