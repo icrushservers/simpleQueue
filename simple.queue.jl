@@ -2,7 +2,11 @@
 
 using ResumableFunctions
 using Distributions
+using Random
 using SimJulia
+
+Random.seed!(123) # Set the seed for repeatability between test runs
+
 
 lambda                = 1 # arrival rate per client
 interArrivalDelayDist = Distributions.Exponential(1/lambda)
